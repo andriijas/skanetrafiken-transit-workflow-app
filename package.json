@@ -1,0 +1,20 @@
+{
+  "name": "skanetrafiken-transit-workflow-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Andreas Cederström",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "express": "^4.16.2",
+    "node-fetch": "^1.7.3",
+    "xml2json": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
